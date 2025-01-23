@@ -1,7 +1,14 @@
-import React from "react";
+import CampList from "@/components/CampList";
+import Form from "@/components/Form";
 
 const CampPage = () => {
-  return <div>CampPage</div>;
+  return (
+    <div>
+      <Form />
+      <hr />
+      <CampList />
+    </div>
+  );
 };
 
 export default CampPage;

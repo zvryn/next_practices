@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   keywords: "Camping",
 };
 
-const layout = ({ children }) => {
+const layout = ({ children }: { children: React.ReactNode }) => {
   return (
     <html>
       <body>
